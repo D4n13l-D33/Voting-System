@@ -2,9 +2,9 @@
 pragma solidity ^0.8.24;
 
 contract VotingSystem {
-    address Owner;
+    address public Owner;
 
-    uint voteCount;
+    uint public voteCount;
     
     enum options {optionA, optionB, optionC}
 
